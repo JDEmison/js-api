@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="main.css">
+<script src="main.js"></script>
+<title>JS Art API</title>
+</head>
+<body class="bg-dark">
+    <div class="container text-center p-2 bg-dark text-light">
+        <h1>Welcome to my JS Art API</h1>
+    </div>
+
+    <section class="bg-primary text-light p-10 p-lg-10 text-center">
+        <div class="container p-5">
+            <div class="d-sm align-items-center justify-content evenly">
+                <figure class="gallery_item" onclick="event.stopPropagation(), getMove(this.id)">
+                    <img src="static/american_gothic.jpg" alt="" class="img-fluid shadow-lg col-lg-18 col-md-6" id="img1" onclick="getMove(this.id)">
+                    <div class="bg-dark text-dark text-center">
+                        <h2 class="text-light">American Gothic, 1930</h2>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary text-light p-10 p-lg-10 text-center">
+        <div class="container p-5">
+            <div class="d-sm align-items-center justify-content evenly">
+                <figure class="gallery_item" onclick="event.stopPropagation(), getMove(this.id)">
+                    <img src="static/weaving.jpg" alt="" class="img-fluid shadow-lg col-lg-18 col-md-6" id="img2" onclick="getMove(this.id)">
+                    <div class="bg-dark text-dark text-center text-light">
+                        <h2 class="text-light">Weaving, 1936</h2>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary text-light p-10 p-lg-10 text-center">
+        <div class="container p-5">
+            <div class="d-sm align-items-center justify-content evenly">
+                <figure class="gallery_item" onclick="event.stopPropagation(), getMove(this.id)">
+                    <img src="static/the_old_guitarist.jpg" alt="" class="img-fluid shadow-lg col-lg-18 col-md-6" id="img3" onclick="getMove(this.id)">
+                    <div class="bg-dark text-dark text-center text-light">
+                        <h2 class="text-light">The Old Guitarist, 1904</h2>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary text-light p-10 p-lg-10 text-center">
+        <div class="container p-5">
+            <div class="d-sm align-items-center justify-content evenly">
+                <figure class="gallery_item" onclick="event.stopPropagation(), getMove(this.id)">
+                    <img src="static/still_life_with_game_fowl.jpg" alt="" class="img-fluid shadow-lg col-lg-18 col-md-6" id="img4" onclick="getMove(this.id)">
+                    <div class="bg-dark text-dark text-center text-light">
+                        <h2 class="text-light">Still Life With Game Fowl, 1600</h2>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
